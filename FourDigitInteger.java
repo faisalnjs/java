@@ -16,7 +16,7 @@ public class FourDigitInteger {
 
     public boolean isPerfectSquare(int number) {
         int i;
-        for (i = 31; i < 100; i++) {
+        for (i = 32; i < 100; i++) { // originally put 31
             if ((i * i) == number) return true;
         }
         return false;

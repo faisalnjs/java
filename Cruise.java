@@ -2,6 +2,11 @@ public class Cruise {
     private int price;
     private int people;
 
+    public Cruise(int num, int thePrice) { // originally did not include constructor
+        price = thePrice;
+        people = num;
+    }
+
     public void setPrice(int newPrice) {
         price = newPrice;
     }
