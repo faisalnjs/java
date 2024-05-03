@@ -28,20 +28,14 @@ public class Cruise {
     }
 
     public static void main(String[] args) {
-        Cruise cr = new Cruise();
-        cr.people = 78;
-        cr.setPrice(4000);
+        Cruise cr = new Cruise(78, 4000);
         cr.setPrice(5000);
         cr.checkResponse("world cruise");
         cr.checkResponse("ship trip");
         System.out.println(cr.calculateRevenue());
-        Cruise cr1 = new Cruise();
-        cr1.people = 200;
-        cr1.setPrice(2000);
+        Cruise cr1 = new Cruise(200, 2000);
         System.out.println(cr1.calculateRevenue());
-        Cruise cr2 = new Cruise();
-        cr2.people = 397;
-        cr2.setPrice(6000);
+        Cruise cr2 = new Cruise(397, 6000);
         System.out.println(cr2.calculateRevenue());
     }
 }

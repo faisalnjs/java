@@ -1,3 +1,4 @@
+package resources;
 import java.util.Scanner;
 
 public class HelloWorld {

@@ -1,3 +1,4 @@
+package resources;
 // This program displays simple graphics
 
 import java.awt.Graphics;
